@@ -14,7 +14,7 @@ npm install nci-base-webhook
 
 This module exports `BaseWebhook` class. Inherit and implement `check(req, project)` method.
 
-Look at [nci-github-webhook](https://github.com/fleg/nci-shields) as example.
+Look at [nci-github-webhook](https://github.com/fleg/nci-github-webhook) as example.
 
 ## License
 
