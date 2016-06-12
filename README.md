@@ -1,7 +1,7 @@
 # nci-base-webhook
 [![Build Status](https://travis-ci.org/fleg/nci-base-webhook.svg?branch=master)](https://travis-ci.org/fleg/nci-base-webhook)
 
-base class for [nci](https://github.com/node-ci/nci webhook plugins
+base class for [nci](https://github.com/node-ci/nci) webhook plugins
 
 
 ## Installation
