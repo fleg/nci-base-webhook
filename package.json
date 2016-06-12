@@ -1,0 +1,34 @@
+{
+  "name": "nci-base-webhook",
+  "version": "0.0.1",
+  "description": "base class for nci webhook plugins",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "mocha --bail --reporter spec test.js",
+    "coverage": "istanbul cover _mocha -- test.js"
+  },
+  "files": [
+    "lib/index.js"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fleg/nci-base-webhook.git"
+  },
+  "keywords": [
+    "nci",
+    "webhook",
+    "hook"
+  ],
+  "author": "Aleksey Timchenko <flegmatik.bel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fleg/nci-base-webhook/issues"
+  },
+  "homepage": "https://github.com/fleg/nci-base-webhook",
+  "devDependencies": {
+    "expect.js": "0.3.1",
+    "istanbul": "0.4.3",
+    "mocha": "2.5.3",
+    "sinon": "1.17.4"
+  }
+}
