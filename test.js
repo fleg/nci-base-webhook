@@ -25,7 +25,7 @@ describe('BaseWebhook', function() {
 		},
 		projects: {},
 		builds: {},
-		httpApp: {
+		express: {
 			post: function(route, _handler) {
 				handler = _handler;
 			}
