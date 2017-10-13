@@ -51,6 +51,16 @@ describe('BaseWebhook', function() {
 		res.sendStatus.reset();
 	});
 
+	it('get secret should return secret from url', function() {
+		var expectedSecret = 'some secret';
+
+		var secret = webhook.getSecret(
+			getReq({secret: expectedSecret})
+		);
+
+		expect(secret).to.eql(expectedSecret);
+	});
+
 	it('not implemented check should throw error', function() {
 		expect(function() {
 			webhook.check();
