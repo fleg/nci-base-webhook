@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/fleg/nci-base-webhook.git"
+    "url": "https://github.com/node-ci/nci-base-webhook.git"
   },
   "keywords": [
     "nci",
@@ -22,9 +22,9 @@
   "author": "Aleksey Timchenko <flegmatik.bel@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fleg/nci-base-webhook/issues"
+    "url": "https://github.com/node-ci/nci-base-webhook/issues"
   },
-  "homepage": "https://github.com/fleg/nci-base-webhook",
+  "homepage": "https://github.com/node-ci/nci-base-webhook",
   "devDependencies": {
     "expect.js": "0.3.1",
     "mocha": "3.2.0",

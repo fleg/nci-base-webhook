@@ -1,5 +1,5 @@
 # nci-base-webhook
-[![Build Status](https://travis-ci.org/fleg/nci-base-webhook.svg?branch=master)](https://travis-ci.org/fleg/nci-base-webhook)
+[![Build Status](https://travis-ci.org/node-ci/nci-base-webhook.svg?branch=master)](https://travis-ci.org/node-ci/nci-base-webhook)
 
 base class for [nci](https://github.com/node-ci/nci) webhook plugins
 
@@ -14,8 +14,8 @@ npm install nci-base-webhook
 
 This module exports `BaseWebhook` class. Inherit and implement `check(req, project)` method.
 
-Look at [nci-github-webhook](https://github.com/fleg/nci-github-webhook) as example.
+Look at [nci-github-webhook](https://github.com/node-ci/nci-github-webhook) as example.
 
 ## License
 
-[The MIT License](https://raw.githubusercontent.com/fleg/nci-base-webhook/master/LICENSE)
+[The MIT License](https://raw.githubusercontent.com/node-ci/nci-base-webhook/master/LICENSE)
